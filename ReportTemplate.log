@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.27)  2 APR 2020 09:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.27)  9 APR 2020 13:03
 entering extended mode
 **./ReportTemplate.tex
 (ReportTemplate.tex
@@ -1522,36 +1522,36 @@ LaTeX Info: Redefining \nameref on input line 195.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 195.
-<ipsa.png, id=22, 339.2675pt x 209.78375pt>
+<ipsa.png, id=46, 339.2675pt x 209.78375pt>
 File: ipsa.png Graphic file (type png)
 <use ipsa.png>
 Package pdftex.def Info: ipsa.png  used on input line 205.
 (pdftex.def)             Requested size: 230.36061pt x 142.43977pt.
-<coverimage.png, id=24, 255.20343pt x 298.11375pt>
+<coverimage.png, id=48, 255.20343pt x 298.11375pt>
 File: coverimage.png Graphic file (type png)
 <use coverimage.png>
 Package pdftex.def Info: coverimage.png  used on input line 218.
 (pdftex.def)             Requested size: 138.21777pt x 161.46574pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 230
+LaTeX Font Info:    Trying to load font information for U+msa on input line 229
 .
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 230
+LaTeX Font Info:    Trying to load font information for U+msb on input line 229
 .
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 23
-0.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 22
+9.
 
 (C:\Users\Huynh\AppData\Roaming\MiKTeX\2.9\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for OMS+rsfs on input line 
-230.
+229.
 
 (C:\Users\Huynh\AppData\Roaming\MiKTeX\2.9\tex/latex/calrsfs\omsrsfs.fd)
 [1
@@ -1573,19 +1573,50 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.266 \chapter
-              {Reinforced learning - Theory} [1
+l.265 \chapter
+              {Reinforcement learning} [1
 
 
 ]
 Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
+
+ []
+
 [2
 
 ]
+<RLSchema.png, id=87, 390.45876pt x 211.79124pt>
+File: RLSchema.png Graphic file (type png)
+<use RLSchema.png>
+Package pdftex.def Info: RLSchema.png  used on input line 287.
+(pdftex.def)             Requested size: 276.43555pt x 149.94948pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
+
+ []
+
+[3 <./RLSchema.png>] [4]
 Chapter 3.
 
 AED: lastpage setting LastPage
-[3
+[5
 
 ]
 
@@ -1593,36 +1624,44 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 270.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 270.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 315.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 315.
 (ReportTemplate.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 270.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 270.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 315.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 315.
 Package rerunfilecheck Info: File `ReportTemplate.out' has not changed.
-(rerunfilecheck)             Checksum: B0B3B636A7C0763093C62FE07B9B2464;263.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 270.
+(rerunfilecheck)             Checksum: E0C9D761BA1F90B17B940FE08C3AB94C;694.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 315.
  ) 
 Here is how much of TeX's memory you used:
- 43483 strings out of 481556
- 978408 string characters out of 2923634
- 1461750 words of memory out of 3000000
- 57806 multiletter control sequences out of 15000+200000
- 549157 words of font info for 69 fonts, out of 3000000 for 9000
+ 43526 strings out of 481556
+ 979008 string characters out of 2923634
+ 1464824 words of memory out of 3000000
+ 57837 multiletter control sequences out of 15000+200000
+ 548793 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,6n,136p,1019b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 78i,12n,136p,1019b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-ecbx1728.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecbx1200.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecbi1440.pk> <C:\Users\Huynh\AppData\Local\MiKTeX
-\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\Huynh\AppData\Lo
-cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\Huynh\
-AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Us
-ers\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2488.
-pk>
-Output written on ReportTemplate.pdf (5 pages, 397374 bytes).
+tcrm1200.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecbx1728.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\Huynh\AppData\Local\MiKTeX
+\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Huynh\AppData\Lo
+cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\Huynh\
+AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Us
+ers\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.
+pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
+\ecrm2488.pk><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10
+.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/symbols/msbm10.pfb>
+Output written on ReportTemplate.pdf (7 pages, 495711 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 55 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 410 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 108 words of extra memory for PDF output out of 10000 (max. 10000000)
 

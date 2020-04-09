@@ -57,9 +57,9 @@ urlcolor=black}
 
 \usepackage{lastpage}
 \renewcommand\headrulewidth{1pt}
-\fancyfoot[L]{Au 424}
+\fancyfoot[L]{Introduction to ML}
 \renewcommand\footrulewidth{1pt}
-\fancyfoot[C]{TP - Amesim}
+\fancyfoot[C]{Reinfrocement Learning for Pinball3D}
 \fancyfoot[R]{\today}
 \makeatletter
 \def\@textbottom{\vskip \z@ \@plus 1pt}
@@ -223,22 +223,21 @@ From a childhood game to reinforced learning
 \begin{minipage}{0.4\textwidth}
   \begin{flushleft} \large
     \emph{Authors :}\\
-    Matthieu \textbf{\textit{Thomas}}\\
-    Julien \textbf{\textit{Huynh}}\\
-
+    Matthieu \textbf{{Thomas}}\\
+    Julien \textbf{{Huynh}}\\
   \end{flushleft}
 \end{minipage}%
 \begin{minipage}{0.4\textwidth}
   \begin{flushright} \large
-    \emph{Encadré par :} \\
-    Mme Frontera-Pons\\
+    \emph{Supervised by :} \\
+    Mme \textbf{Frontera-Pons}\\
   \end{flushright}
 \end{minipage}
 
 \vfill
 
 % Bottom of the page
-{\large Version 1.0.0\\ \today}
+{\large Version 0.1\\ \today}
 
 \end{center}
 \end{titlepage}
@@ -263,8 +262,54 @@ From a childhood game to reinforced learning
 Back in the old days when multiplayer gaming and unlimited internet connection was not as widespread, as kids, some of us eventually turned to a Windows pre-installed game, PinBall 3D.
 \section{Objective}
 Score as many points as possible
-\chapter{Reinforced learning - Theory}
-blabla
-\chapter{Reinforced learning - Application to PinBall3D}
+\chapter{Reinforcement learning}
+\section{Why reinforcement learning ?}
+\qquad While thinking about the way to use Machine Learning to play PinBall, we thought of various possibilities but the one that stood out from the rest was reinforcement learning. The advantage of this method is that it works well when there are various states through time which is the case in a game of Pinball. Moreover, we can fairly easily say that the reward involved in this method will be related to the score and the lives.
+\section{Basics of reinforcement learning}
+\subsection{Concepts}
+\qquad Simply put, reinforcement learning is a method that takes advantage of the interactions between : 
+\begin{itemize}
+	\item Agent
+	\item Actions
+	\item Rewarding system
+	\item Environment
+	\item States
+	\item Policy
+	\item Value
+\end{itemize}
+
+Other concepts are also used but the ones mentioned above are the most essential ones.\\
+\subsection{Main idea}
+In reinforcement learning methods, the agent does a set of actions in order to maximize the reward it will get. At each given time, the agent will compute an action being given the state and this will then have a reaction from the environment surrounding it as a feedback which is the reward and will put it in a new state.\\
+
+One representation of some of those interactions is the following loop :
+\begin{figure}[H]
+	\centering\includegraphics[width=0.6\linewidth]{RLSchema}
+	\caption{Reinforcement learning concept interactions}
+\end{figure}
+
+On this loop, at a given time $t$, the agent knows the state $s_t$ and the reward $r_t$ at time $t$ and then computes an action $a_t$ with respect to $s_t$ and $r_t$. Then, the environment will give a new state $s_{t+1}$ and a new reward $r_{t+1}$ as a response to $a_t$. Obviously, the better the action taken was with respect to the objective, the higher the reward will be.\\
+
+
+\subsection{Policy, Value and Trajectory}
+While they did not appear in the loop, the trajectory, policy and value are essential in reinforcement learning.\\
+\subsubsection{Policy}
+\qquad The policy is the strategy the agent will use to reach its objective. If we refer to path-finding, it could be the different ways to go from a starting point to the objective point using different algorithms (Dijkstra, A$^*$, RRT, potential field, ...). Simply put, it defines how the agent will choose its action to have an impact on the environment. \\
+
+The learning part is done at the \textbf{Agent} part which, given the state and the previous reward, will learn the best policy to maximize the value.
+\subsubsection{Value}
+\qquad In reinforcement learning, the value is basically the long term reward, it is what we would expect as an overall reward while being in a certain state and following a certain policy. The difference with the reward is that the latter is instantaneous, meaning that it is simply a response at a given time while the value is a much more global concept. Mathematically, it is defined as :
+$$
+V(s)=\mathbb{E}\left[\sum_{n}\gamma^n r_n\right]
+$$
+
+With $n$ the states, $r_n$ the reward for the state and $\gamma\in[0,1]$ a kind of damping factor for the reward, called discount factor. This factor helps giving a balance in the importance between the current reward and the ones to be expected in the "future". This is important in some situations when for example, an action is taken, giving a high reward at the given time but will also greatly reduce the expected future rewards thus, the value.
+\subsubsection{Trajectory}
+\qquad Roughly speaking, the trajectory $\tau$ is the set of states the agent went through after interacting with t
+\section{Reinforcement learning methods}
+
+
+
+\chapter{Reinforcement learning - Application to PinBall 3D}
 blabla applicatif + git
 \end{document}

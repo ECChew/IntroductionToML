@@ -1,4 +1,10 @@
 \BOOKMARK [0][-]{chapter.1}{The legendary PinBall 3D game}{}% 1
 \BOOKMARK [1][-]{section.1.1}{Objective}{chapter.1}% 2
-\BOOKMARK [0][-]{chapter.2}{Reinforced learning - Theory}{}% 3
-\BOOKMARK [0][-]{chapter.3}{Reinforced learning - Application to PinBall3D}{}% 4
+\BOOKMARK [0][-]{chapter.2}{Reinforcement learning}{}% 3
+\BOOKMARK [1][-]{section.2.1}{Why reinforcement learning ?}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.2}{Basics of reinforcement learning}{chapter.2}% 5
+\BOOKMARK [2][-]{subsection.2.2.1}{Concepts}{section.2.2}% 6
+\BOOKMARK [2][-]{subsection.2.2.2}{Main idea}{section.2.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.3}{Policy, Value and Trajectory}{section.2.2}% 8
+\BOOKMARK [1][-]{section.2.3}{Reinforcement learning methods}{chapter.2}% 9
+\BOOKMARK [0][-]{chapter.3}{Reinforcement learning - Application to PinBall 3D}{}% 10
