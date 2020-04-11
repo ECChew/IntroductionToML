@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.27)  9 APR 2020 13:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.27)  11 APR 2020 15:06
 entering extended mode
 **./ReportTemplate.tex
 (ReportTemplate.tex
@@ -1522,12 +1522,12 @@ LaTeX Info: Redefining \nameref on input line 195.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 195.
-<ipsa.png, id=46, 339.2675pt x 209.78375pt>
+<ipsa.png, id=54, 339.2675pt x 209.78375pt>
 File: ipsa.png Graphic file (type png)
 <use ipsa.png>
 Package pdftex.def Info: ipsa.png  used on input line 205.
 (pdftex.def)             Requested size: 230.36061pt x 142.43977pt.
-<coverimage.png, id=48, 255.20343pt x 298.11375pt>
+<coverimage.png, id=56, 255.20343pt x 298.11375pt>
 File: coverimage.png Graphic file (type png)
 <use coverimage.png>
 Package pdftex.def Info: coverimage.png  used on input line 218.
@@ -1592,7 +1592,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--284
 [2
 
 ]
-<RLSchema.png, id=87, 390.45876pt x 211.79124pt>
+<RLSchema.png, id=97, 390.45876pt x 211.79124pt>
 File: RLSchema.png Graphic file (type png)
 <use RLSchema.png>
 Package pdftex.def Info: RLSchema.png  used on input line 287.
@@ -1612,11 +1612,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 297--298
 
  []
 
-[3 <./RLSchema.png>] [4]
+[3 <./RLSchema.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
+
+ []
+
+[6
+
+]
 Chapter 3.
 
 AED: lastpage setting LastPage
-[5
+[7
 
 ]
 
@@ -1624,20 +1666,20 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 315.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 315.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 340.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 340.
 (ReportTemplate.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 315.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 315.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 340.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 340.
 Package rerunfilecheck Info: File `ReportTemplate.out' has not changed.
-(rerunfilecheck)             Checksum: E0C9D761BA1F90B17B940FE08C3AB94C;694.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 315.
+(rerunfilecheck)             Checksum: A6E8D17911245CB40718DD1072082475;820.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 340.
  ) 
 Here is how much of TeX's memory you used:
- 43526 strings out of 481556
- 979008 string characters out of 2923634
+ 43532 strings out of 481556
+ 979068 string characters out of 2923634
  1464824 words of memory out of 3000000
- 57837 multiletter control sequences out of 15000+200000
+ 57839 multiletter control sequences out of 15000+200000
  548793 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,12n,136p,1019b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1657,11 +1699,12 @@ pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy8.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/symbols/msbm10.pfb>
-Output written on ReportTemplate.pdf (7 pages, 495711 bytes).
+1/public/amsfonts/cm/cmsy6.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+symbols/msbm10.pfb>
+Output written on ReportTemplate.pdf (9 pages, 520033 bytes).
 PDF statistics:
- 410 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 108 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 455 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
+ 124 words of extra memory for PDF output out of 10000 (max. 10000000)
 

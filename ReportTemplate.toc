@@ -10,5 +10,7 @@
 \contentsline {subsubsection}{Policy}{3}{section*.3}%
 \contentsline {subsubsection}{Value}{4}{section*.4}%
 \contentsline {subsubsection}{Trajectory}{4}{section*.5}%
-\contentsline {section}{\numberline {2.3}Reinforcement learning methods}{4}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Reinforcement learning - Application to PinBall 3D}{5}{chapter.3}%
+\contentsline {section}{\numberline {2.3}Model-based vs model-free}{4}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Q-Learning}{5}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Deep reinforcement learning}{5}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Reinforcement learning - Application to PinBall 3D}{7}{chapter.3}%
