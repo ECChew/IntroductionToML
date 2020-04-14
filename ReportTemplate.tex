@@ -211,11 +211,13 @@ urlcolor=black}
 % Title
 \rule{\linewidth}{0.5mm} \\[0.4cm]
 { \huge  Introduction to Machine Learning }\\
-From a childhood game to reinforced learning
+Creating the best AI possible with reinforcement learning
 \rule{\linewidth}{0.5mm} \\[1.5cm]
 %\vspace{1cm}
 \begin{center}
-	\includegraphics[width=0.3\linewidth]{coverimage}
+	\includegraphics[width=0.3\linewidth]{sc2.jpeg}\hfill
+	\includegraphics[width=0.3\linewidth]{coverimage1}\hfill
+	\includegraphics[width=0.3\linewidth]{OpenAI_cover}
 \end{center}
 \vspace{0.8cm}
 % Author and supervisor
@@ -258,10 +260,6 @@ From a childhood game to reinforced learning
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Content of the report and references %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{The legendary PinBall 3D game}
-Back in the old days when multiplayer gaming and unlimited internet connection was not as widespread, as kids, some of us eventually turned to a Windows pre-installed game, PinBall 3D.
-\section{Objective}
-Score as many points as possible
 \chapter{Reinforcement learning}
 \section{Why reinforcement learning ?}
 \qquad While thinking about the way to use Machine Learning to play PinBall, we thought of various possibilities but the one that stood out from the rest was reinforcement learning. The advantage of this method is that it works well when there are various states through time which is the case in a game of Pinball. Moreover, we can fairly easily say that the reward involved in this method will be related to the score and the lives.
@@ -340,8 +338,31 @@ The idea behind this is still to solve the same problem as with Q-Learning but w
 
 This deep reinforcement learning method is used in a lot of games where people (either players or companies) want to create AIs to play the game and it is also valid for PinBall 3D.
 
-\chapter{Reinforcement learning - Application to PinBall 3D}
-blabla applicatif + git
+\chapter{Reinforcement learning - Examples of applications}
+\section{3D PinBall AI}
+\qquad While searching a subject for this project, we came across the idea that we could use reinforcement for a game with few inputs to have an easy decision making. We found quickly this project made by Elliot Wood, we wanted to try it out but the installation methods aren't on point. The objective of the AI is to gain score as fast as possible without supervision. We originally wanted to center the project around this application but we couldn't manage to execute training sessions on the game. The inputs are very limited, right and left triggers, the agents understand with ease that they must not let the ball pass by a trigger without sending it up else they lose a life and get punished. They also save the patterns where they gain a lot of points to be able to reproduce it as well. This example is an approach of reinforcement learning used to train intelligent agents in video games. 
+
+\section{Open AI : Multi agents hide and seek}
+\qquad This fun co-op game created by OpenAI, a research laboratory based in San Francisco is the opportunity to let agents show their creativity. The 2 teams are seekers and hiders, the goal of seekers is to have in line of sight the hiders, the goal of hiders is to survive for long enough. They get rewarded based on the time they can survive or find the hiders. Both teams can move around and push/pull the yellow blocks but the hiders team can lock blocks and they can't be moved by the seekers. For the first training level, the hiders team agents could only win through cooperation by blocking the 2 doors and stay inside the room. They started by running errands, then the seekers started to follow the hiders pretty quickly, it took the hiders 2.69 millions of games to understand how to block the doors at the beginning of the round. We can see at the top right corner we can see a ramp that will be used by the seekers to climb above the wall of the room from the 8.62 million game to the game number 14.5 million. The hiders started to win again at this time by taking the ramp inside the room with them before locking themselves with it. The level was designed by the researchers to show the evolution through times and tries that these agents could have. The researchers, hope that their discoveries will be useful for other applications in the industry. 
+
+
+\begin{figure}[H]
+	\centering\includegraphics[width=\linewidth]{OpenAI1.png}
+	\caption{First training environment}
+\end{figure}
+
+\qquad This other environment allowed more and more creativity for the agents, the hiders first tried to create a wall and lock themselves in, it worked and they were rewarded for their win until the seekers agents discovered they could go over the wall with the ramps. The next move of the hiders was to lock the ramp away from their defense, they kept on winning for a long time until the seekers exploited a bug they found ! They move a box square close to a ramp and climb on the box by using the ramp, while on top of the box there is a bug that the developers didn't think of at first but they could move the box with themselves on top ! So they had the ability to move freely around and go over the hiders walls. The hiders then locked the ramps AND the boxes so that this bug couldn't be exploited anymore by the seekers and won all rounds.
+
+\begin{figure}[H]
+	\centering\includegraphics[width=\linewidth]{OpenAI2.png}
+	\caption{Open training environment}
+\end{figure}
+
+\section{StarCraft 2 Agents : AlphaStar}
+\qquad StarCraft is one of the most complete RTS (Real Time Strategy) game on the market. This is why the result obtained by the AlphaStar agents are impressive, they are reinforced agents trained against each other, that made it to the top level of the global ladder (best 0.02\% of the active players) and beat the current world best players during a show-match. While playing, the agent sees the same thing as a player sees on a screen and has a number of moves per minute limited, APMs (actions per minute) is a factor that can cleave players so AlphaStar APMs were nerfed and limited to something humans can reach. The way it was trained was first copying mechanisms, then self play against others agents and remembering what makes an agent wins, then specific decisions based on pro games, then really advanced AIs were trained to react to specific strategies made by abusers agents. The agents were playing in ranked matches all along the training and there is a quick video showing how far they could go with each method of training (see below). The pro players that played against these AIs said that they were playing perfectly, but not on an inhuman level, it would be theoretically possible to reach by a human player but the consistency would not match AlphaStar perfect game-play. 
+
+\url{https://www.youtube.com/watch?v=xP7LwZxq0ss&feature=emb_title}
+
 \clearpage
 \chapter*{Sources}
 \begin{itemize}
@@ -352,6 +373,10 @@ blabla applicatif + git
 	\item\url{https://www.kdnuggets.com/2018/03/5-things-reinforcement-learning.html}
 	\item\url{https://towardsdatascience.com/keras-transfer-learning-for-beginners-6c9b8b7143e}
 	\item\url{https://pathmind.com/wiki/deep-reinforcement-learning}
-	\item Various online courses/videos 
+	\item\url{https://deepmind.com/blog/article/AlphaStar-Grandmaster-level-in-StarCraft-II-using-multi-agent-reinforcement-learning}
+	\item\url{https://unitylist.com/p/w1g/3D-Pinball-AI}
+	\item\url{https://openai.com/blog/emergent-tool-use/}
+    \item Various online courses/videos 
+    
 \end{itemize}
 \end{document}
