@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.27)  13 APR 2020 00:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.27)  14 APR 2020 22:30
 entering extended mode
 **./ReportTemplate.tex
 (ReportTemplate.tex
@@ -1522,36 +1522,46 @@ LaTeX Info: Redefining \nameref on input line 195.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 195.
-<ipsa.png, id=54, 339.2675pt x 209.78375pt>
+<ipsa.png, id=58, 339.2675pt x 209.78375pt>
 File: ipsa.png Graphic file (type png)
 <use ipsa.png>
 Package pdftex.def Info: ipsa.png  used on input line 205.
 (pdftex.def)             Requested size: 230.36061pt x 142.43977pt.
-<coverimage.png, id=56, 255.20343pt x 298.11375pt>
-File: coverimage.png Graphic file (type png)
-<use coverimage.png>
-Package pdftex.def Info: coverimage.png  used on input line 218.
+<sc2.jpeg, id=60, 371.88937pt x 267.24844pt>
+File: sc2.jpeg Graphic file (type jpg)
+<use sc2.jpeg>
+Package pdftex.def Info: sc2.jpeg  used on input line 218.
+(pdftex.def)             Requested size: 138.21777pt x 99.32893pt.
+<coverimage1.png, id=61, 255.20343pt x 298.11375pt>
+File: coverimage1.png Graphic file (type png)
+<use coverimage1.png>
+Package pdftex.def Info: coverimage1.png  used on input line 219.
 (pdftex.def)             Requested size: 138.21777pt x 161.46574pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 229
+<OpenAI_cover.png, id=62, 430.60875pt x 401.24907pt>
+File: OpenAI_cover.png Graphic file (type png)
+<use OpenAI_cover.png>
+Package pdftex.def Info: OpenAI_cover.png  used on input line 220.
+(pdftex.def)             Requested size: 138.21777pt x 128.79416pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 231
 .
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 229
+LaTeX Font Info:    Trying to load font information for U+msb on input line 231
 .
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 22
-9.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 23
+1.
 
 (C:\Users\Huynh\AppData\Roaming\MiKTeX\2.9\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for OMS+rsfs on input line 
-229.
+231.
 
 (C:\Users\Huynh\AppData\Roaming\MiKTeX\2.9\tex/latex/calrsfs\omsrsfs.fd)
 [1
@@ -1560,45 +1570,47 @@ LaTeX Font Info:    Trying to load font information for OMS+rsfs on input line
 
 
 {C:/Users/Huynh/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./ipsa.png>
- <./coverimage.png>] (ReportTemplate.toc)
+ <./sc2.jpeg> <./coverimage1.png> <./OpenAI_cover.png>] (ReportTemplate.toc)
 \tf@toc=\write10
 \openout10 = `ReportTemplate.toc'.
 
- [1
+
+[1
 
 
 ]
 Chapter 1.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.265 \chapter
-              {Reinforcement learning} [1
 
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
 
-]
-Chapter 2.
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 281--282
 
  []
 
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.282 
+       [1
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--284
+
+]
+<RLSchema.png, id=100, 390.45876pt x 211.79124pt>
+File: RLSchema.png Graphic file (type png)
+<use RLSchema.png>
+Package pdftex.def Info: RLSchema.png  used on input line 285.
+(pdftex.def)             Requested size: 276.43555pt x 149.94948pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
 
  []
 
-[2
 
-]
-<RLSchema.png, id=97, 390.45876pt x 211.79124pt>
-File: RLSchema.png Graphic file (type png)
-<use RLSchema.png>
-Package pdftex.def Info: RLSchema.png  used on input line 287.
-(pdftex.def)             Requested size: 276.43555pt x 149.94948pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
 
  []
 
@@ -1607,22 +1619,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 295--296
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
+[2 <./RLSchema.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
 
  []
 
-[3 <./RLSchema.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 310--311
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
 
  []
 
-[4]
+
 Underfull \hbox (badness 10000) in paragraph at lines 316--317
 
  []
@@ -1633,56 +1645,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 318--319
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
 
  []
 
-<DQN.png, id=128, 894.34125pt x 342.27875pt>
+<DQN.png, id=130, 894.34125pt x 342.27875pt>
 File: DQN.png Graphic file (type png)
 <use DQN.png>
-Package pdftex.def Info: DQN.png  used on input line 335.
+Package pdftex.def Info: DQN.png  used on input line 333.
 (pdftex.def)             Requested size: 460.72124pt x 176.33035pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--340
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
 
  []
 
-[6
+[5
 
  <./DQN.png>]
-Chapter 3.
-[7
+Chapter 2.
+[6
 
 ]
+<OpenAI1.png, id=144, 842.39719pt x 479.54156pt>
+File: OpenAI1.png Graphic file (type png)
+<use OpenAI1.png>
+Package pdftex.def Info: OpenAI1.png  used on input line 351.
+(pdftex.def)             Requested size: 460.72124pt x 262.2706pt.
+<OpenAI2.png, id=145, 679.03688pt x 405.76593pt>
+File: OpenAI2.png Graphic file (type png)
+<use OpenAI2.png>
+Package pdftex.def Info: OpenAI2.png  used on input line 358.
+(pdftex.def)             Requested size: 460.72124pt x 275.31041pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./OpenAI1.png>]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-49.
+65.
  ("D:\Program Files\MiKTeX 2.9\tex/latex/base\t1cmtt.fd"
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-Overfull \hbox (12.04579pt too wide) in paragraph at lines 349--350
+) [8 <./OpenAI2.png>]
+Overfull \hbox (12.04579pt too wide) in paragraph at lines 371--372
 [][][]$\T1/cmtt/m/n/10 https : / / towardsdatascience . com / simple-[]reinforc
 ement-[]learning-[]q-[]learning-[]fcddc4b6fe56$[][] 
  []
 
 
-Overfull \hbox (97.02528pt too wide) in paragraph at lines 350--351
+Overfull \hbox (97.02528pt too wide) in paragraph at lines 372--373
 [][][]$\T1/cmtt/m/n/10 https : / / www . freecodecamp . org / news / an-[]intro
 duction-[]to-[]q-[]learning-[]reinforcement-[]learning-[]14ac0b4493cc/$[][] 
  []
 
 
+Overfull \hbox (193.00221pt too wide) in paragraph at lines 377--378
+[][][]$\T1/cmtt/m/n/10 https : / / deepmind . com / blog / article / AlphaStar-
+[]Grandmaster-[]level-[]in-[]StarCraft-[]II-[]using-[]multi-[]agent-[]reinforce
+ment-[]learning$[][] 
+ []
+
+
 AED: lastpage setting LastPage
-[8
+[9
 
 
 ]
@@ -1691,48 +1719,49 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 357.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 357.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 383.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 383.
 (ReportTemplate.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 357.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 357.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 383.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 383.
 Package rerunfilecheck Info: File `ReportTemplate.out' has not changed.
-(rerunfilecheck)             Checksum: A6E8D17911245CB40718DD1072082475;820.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 357.
+(rerunfilecheck)             Checksum: AE902C04C44C1EAA4950FDB75BF5A8BC;918.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 383.
  ) 
 Here is how much of TeX's memory you used:
- 43600 strings out of 481556
- 980177 string characters out of 2923634
- 1464822 words of memory out of 3000000
- 57886 multiletter control sequences out of 15000+200000
- 555813 words of font info for 95 fonts, out of 3000000 for 9000
+ 43633 strings out of 481556
+ 980644 string characters out of 2923634
+ 1464824 words of memory out of 3000000
+ 57910 multiletter control sequences out of 15000+200000
+ 556126 words of font info for 96 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,12n,136p,1019b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 78i,12n,136p,1393b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
 ecrm1000.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
 ec/dpi600\ectt1000.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
 /jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts
-/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Huynh\AppData\Local\MiKTeX
-\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Huynh\AppData\Lo
-cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Huynh\
-AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Us
-ers\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.
+/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\Huynh\AppData\Local\MiKTeX
+\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Huynh\AppData\Lo
+cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Huynh\
+AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Us
+ers\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.
 pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
-\ecrm1440.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
-/ec/dpi600\ecti1440.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfou
-r/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\font
-s/pk/ljfour/jknappen/ec/dpi600\ecrm2488.pk><D:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmex10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmmi12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmmi8.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><
-D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ReportTemplate.pdf (10 pages, 575624 bytes).
+\ecbx1440.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
+/ec/dpi600\ecrm1440.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfou
+r/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\font
+s/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Huynh\AppData\Local\MiKTe
+X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2488.pk><D:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmmi12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr8.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on ReportTemplate.pdf (11 pages, 2466042 bytes).
 PDF statistics:
- 537 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 617 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 
