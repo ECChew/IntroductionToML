@@ -211,7 +211,7 @@ urlcolor=black}
 % Title
 \rule{\linewidth}{0.5mm} \\[0.4cm]
 { \huge  Introduction to Machine Learning }\\
-Creating the best AI possible with reinforcement learning
+Machine Learning for Video Games - A path towards Reinforcement Learning
 \rule{\linewidth}{0.5mm} \\[1.5cm]
 %\vspace{1cm}
 \begin{center}
@@ -262,7 +262,7 @@ Creating the best AI possible with reinforcement learning
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Reinforcement learning}
 \section{Why reinforcement learning ?}
-\qquad While thinking about the way to use Machine Learning to play PinBall, we thought of various possibilities but the one that stood out from the rest was reinforcement learning. The advantage of this method is that it works well when there are various states through time which is the case in a game of Pinball. Moreover, we can fairly easily say that the reward involved in this method will be related to the score and the lives.
+\qquad While thinking about the way to use Machine Learning to play games, we thought of various possibilities but the one that stood out from the rest which is also the one used in many of those projects was reinforcement learning. The advantage of this method is that it works well when there are various states through time which is the case in games, for example, where the character is, what's its current status, its surroundings at a given time and much more. 
 \section{Basics of reinforcement learning}
 \subsection{Concepts}
 \qquad Simply put, reinforcement learning is a method that takes advantage of the interactions between : 
@@ -317,7 +317,7 @@ An appropriate description for this $Q$ value would be quality of that given act
 
 Obviously different actions will give different Q-values so in order to maximize our result, all we have to do is to choose the action that will give the highest Q-value. This implies learning the function, the mapping from the action to the Q-value and this process is Q-learning. This is done by saving and updating values in tables while approximating on the trial-and-error approach through the learning process.\\
 
-While a basic Q-learning algorithm will do well on relatively small problems, issues will start rising once we approach bigger problems with more sophisticated and complex problems. This is especially true in our case with PinBall 3D where the actions might be limited but the number of states is gigantic. Needless to say, such a large amount of data to store and update is inefficient and requires a huge computational power thus, the need for a more efficient technique.
+While a basic Q-learning algorithm will do well on relatively small problems, issues will start rising once we approach bigger problems with more sophisticated and complex problems. This is especially true in our case with games where the actions can be limited in some very specific cases (PinBall or tic-tac-toe for example) but are in most games, very large, just like the number of states. Needless to say, such a large amount of data to store and update is inefficient and requires a huge computational power thus, the need for a more efficient technique.
 \section{Deep reinforcement learning}
 \qquad Deep reinforcement learning is a solution to our previously stated problem. As we mentioned, updating values and storing them is costly so we can try to approximate the function of this Q-value using Deep Neural Networks. As mentioned during our class, there is this fundamental theorem saying that Neural Networks can approximate about any function given the right number of neurons and layers. Thus, we could approximate the Q-value for each possible action given the state. This combination of learning a Q-function with a Deep Neural Network is called a Deep Q-Network (DQN)\\
 \clearpage
@@ -336,7 +336,8 @@ We could then consider the loss as a comparison between this targeted Q-value an
 
 The idea behind this is still to solve the same problem as with Q-Learning but with a different method to make it more efficient.\\
 
-This deep reinforcement learning method is used in a lot of games where people (either players or companies) want to create AIs to play the game and it is also valid for PinBall 3D.
+As the number of Machine Learning and game enthusiasts increase online so do the number of projects linking those two domains and, in many of those projects, this particular reinforcement learning method is used, especially since the reawakening of Deep Neural Networks over the last years with the increasing computation powers we have at our disposal.
+
 
 \chapter{Reinforcement learning - Examples of applications}
 \section{3D PinBall AI}
